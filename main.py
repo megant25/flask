@@ -111,3 +111,5 @@ def simpan_curhat(message):
 
 # Jalankan polling jika diperlukan lokal
 # bot.infinity_polling()  <-- tidak dipakai saat pakai webhook
+def run():
+    app.run(host="0.0.0.0", port=8080)
